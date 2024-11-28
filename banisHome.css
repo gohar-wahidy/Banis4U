@@ -172,6 +172,7 @@ footer{
     }
     .text{
         order: 2;
+        padding-right: 5px;
     }
 }
 
