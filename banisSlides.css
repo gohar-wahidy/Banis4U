@@ -1,0 +1,104 @@
+.week-content{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100vw;
+}
+.week-content.active{
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .week-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .week-content .text{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .week-content .images{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+    .week-content .images img{
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    .slideshow-navigation{
+        position: relative;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
+.week-content .images img{
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.week-content .text{
+    width: 100%;
+}
+.week-content .images{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: hsl(277, 56%, 40%);
+    color: hsl(63, 100%, 50%);
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: hsl(63, 100%, 50%);
+    color: hsl(277, 56%, 40%);
+    box-shadow: 5px 5px 5px hsl(0, 1%, 15%);
+}
+button:focus{
+    outline: none;
+}
+
+.content{
+    position: relative;
+    padding-bottom: 80px;
+}
+.slideshow-navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.slideshow-navigation button{
+    padding: 10px 20px;
+}
+.content img{
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px hsl(0, 1%, 15%);
+}
