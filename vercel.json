@@ -1,8 +1,8 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/new", "destination": "/new.html" },
-    { "source": "/cntact", "destination": "/contact.html" }
+    { "source": "/new-this-week", "destination": "/new-this-week.html" },
+    { "source": "/contact-us", "destination": "/contact-us.html" }
   ],
   "cleanUrls": true
 }
