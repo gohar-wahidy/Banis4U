@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="banisContact.css">
+  <link rel="icon" href="Images/apple-touch-icon.png" type="image/png">
+  <script src="https://kit.fontawesome.com/4cb23c83ee.js" crossorigin="anonymous"></script>
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Banis Liquor & Vape Shop</h1>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index">HOME</a></li>
+        <li><a href="new">NEW THIS WEEK</a></li>
+        <li><a href="contact">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+      <img src="Images/contact.jpg" alt="brewing image" class="image">
+      <div class="text-content">
+        <h1>Contact Us</h1>
+        <div>
+          <h2>Bani's Convenience 4U</h2>
+          <p><a href="https://maps.app.goo.gl/ECNYqQRmvrxjVdDUA" target="_blank" class="a">2128 College Street</a></p>
+          <p>Cedar Falls, IA 50613</p>
+          <p>Email: <a href="mailto:banis786@yahoo.com" class="a">banis786@yahoo.com</a></p>
+          <p>Phone: <a href="tel:319-277-6666" class="a">(319) 277-6666</a></p>
+        </div><br>
+        <div class="social-media">
+          <p>Our Social Media:</p>
+          <a href="https://www.facebook.com/banishill" target="_blank"><img class="socialMedia" src="Images/facebooklogo.png" width="45" alt="our facebook"></a>
+          <a href="https://www.instagram.com/explore/locations/322144578602114/banis-liquor-beer-wine-and-the-vape-shop/" target="_blank"><img class="socialMedia" src="Images/instalogo.png" width="45" alt="our instagram"></a>
+          <a href="https://www.snapchat.com/add/vapeandsmok2019" target="_blank"><img class="socialMediaSnap" src="Images/snaplogo.png" width="45" alt="our snapchat"></a>
+        </div>
+        <div>
+          <h2>Hours</h2>
+          <p>Sunday: 9AM - 12AM</p>
+          <p>Monday - Wednesday: 8:30AM - 12AM</p>
+          <p>Thursday - Saturday: 8:30AM - 2AM</p>
+          <div id="hours-info">
+            <p id="store-status">Loading...</p>
+          </div>
+        </div><br>
+      </div>
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form" class="contact">
+          <div class="contact-title">
+            <h2>Send us an email</h2>
+            <hr>
+          </div>
+          <input type="hidden" name="access_key" value="ea55712c-8f98-4877-b620-160a4174ce64">
+          
+          <input class="inputs" id="name" type="text" name="name" placeholder="Your Name" required>
+          <input class="inputs" id="email" type="email" name="email" placeholder="Your Email" required>
+          <input class="inputs" id="subject" name="subject" placeholder="Subject" required>
+          <textarea class="inputs" id="message" name="message" placeholder="Your Message" cols="30" rows="6" required></textarea>
+          <button type="submit">Send<i class="fa-solid fa-paper-plane fa-sm"></i></button>
+        </form>
+      </div>
+      <img src="Images/contact.jpg" alt="brewing image" class="image-mobile-only">
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <img class="logo" src="Images/logo.png" width="115" alt="Bani's Logo">
+      <div class="social-media-icons">
+        <a href="https://www.facebook.com/banishill" target="_blank"><img class="socialMedia" src="Images/facebooklogo.png" width="50" alt="our facebook"></a>
+        <a href="https://www.instagram.com/explore/locations/322144578602114/banis-liquor-beer-wine-and-the-vape-shop/" target="_blank"><img class="socialMedia" src="Images/instalogo.png" width="50" alt="our instagram"></a>
+        <a href="https://www.snapchat.com/add/vapeandsmok2019" target="_blank"><img class="socialMediaSnap" src="Images/snaplogo.png" width="50" alt="our snapchat"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="banisTime.js"></script>
+  <script src="banisTransition.js"></script>
+</body>
+</html>

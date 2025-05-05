@@ -1,8 +1,8 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/banisNew", "destination": "/banisNew.html" },
-    { "source": "/banisContact", "destination": "/banisContact.html" }
+    { "source": "/new", "destination": "/new.html" },
+    { "source": "/cntact", "destination": "/contact.html" }
   ],
   "cleanUrls": true
 }
