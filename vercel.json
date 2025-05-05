@@ -1,12 +1,13 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/banisNew", "destination": "/banisNew.html" },
-    { "source": "/banisContact", "destination": "/banisContact.html" }
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/new", "destination": "/banisNew.html" },
+    { "source": "/contact", "destination": "/banisContact.html" }
   ],
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/banisNew.html", "destination": "/banisNew", "permanent": true },
-    { "source": "/banisContact.html", "destination": "/banisContact", "permanent": true }
+    { "source": "/index.html", "destination": "/home", "permanent": true },
+    { "source": "/banisNew.html", "destination": "/new", "permanent": true },
+    { "source": "/banisContact.html", "destination": "/contact", "permanent": true }
   ]
 }
